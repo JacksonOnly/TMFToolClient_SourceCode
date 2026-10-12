@@ -1,0 +1,167 @@
+<Project Sdk="Microsoft.NET.Sdk">
+  <PropertyGroup>
+    <AssemblyName>TMFTool</AssemblyName>
+    <GenerateAssemblyInfo>False</GenerateAssemblyInfo>
+    <OutputType>WinExe</OutputType>
+    <UseWindowsForms>True</UseWindowsForms>
+    <TargetFramework>net472</TargetFramework>
+    <Prefer32Bit>True</Prefer32Bit>
+    <GenerateResourceUsePreserializedResources>true</GenerateResourceUsePreserializedResources>
+    <!-- Decompiled legacy sources have no nullable annotations; do not inherit
+         the unrelated parent solution's nullable contract. -->
+    <Nullable>disable</Nullable>
+    <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
+    <GenerateBindingRedirectsOutputType>true</GenerateBindingRedirectsOutputType>
+    <EnableDefaultEmbeddedResourceItems>false</EnableDefaultEmbeddedResourceItems>
+  </PropertyGroup>
+  <PropertyGroup>
+    <LangVersion>10.0</LangVersion>
+    <AllowUnsafeBlocks>True</AllowUnsafeBlocks>
+    <CheckForOverflowUnderflow>False</CheckForOverflowUnderflow>
+  </PropertyGroup>
+  <PropertyGroup>
+    <ApplicationIcon>..\resources\App\app.ico</ApplicationIcon>
+    <ApplicationManifest>..\resources\App\app.manifest</ApplicationManifest>
+    <RootNamespace />
+  </PropertyGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="..\resources\Embedded\qc.bin.Debug.tool.getblob.xml" LogicalName="qc.bin.Debug.tool.getblob.xml" />
+    <EmbeddedResource Include="..\resources\Embedded\qc.bin.Debug.tool.qcedlcmdhelper.exe" LogicalName="qc.bin.Debug.tool.qcedlcmdhelper.exe" />
+    <EmbeddedResource Include="..\resources\Embedded\qc.bin.Debug.tool.QSaharaServer.exe" LogicalName="qc.bin.Debug.tool.QSaharaServer.exe" />
+    <EmbeddedResource Include="..\resources\Embedded\qc.bin.Debug.tool.fh_loader.exe" LogicalName="qc.bin.Debug.tool.fh_loader.exe" />
+    <EmbeddedResource Include="..\resources\Embedded\costura.antdui.dll.compressed" LogicalName="costura.antdui.dll.compressed" />
+    <EmbeddedResource Include="..\resources\Embedded\costura.costura.dll.compressed" LogicalName="costura.costura.dll.compressed" />
+    <EmbeddedResource Include="..\resources\Embedded\costura.costura.pdb.compressed" LogicalName="costura.costura.pdb.compressed" />
+    <EmbeddedResource Include="..\resources\Embedded\costura.dotnetzip.dll.compressed" LogicalName="costura.dotnetzip.dll.compressed" />
+    <EmbeddedResource Include="..\resources\Embedded\costura.dotnetzip.pdb.compressed" LogicalName="costura.dotnetzip.pdb.compressed" />
+    <EmbeddedResource Include="..\resources\Embedded\costura.google.protobuf.dll.compressed" LogicalName="costura.google.protobuf.dll.compressed" />
+    <EmbeddedResource Include="..\resources\Embedded\costura.google.protobuf.pdb.compressed" LogicalName="costura.google.protobuf.pdb.compressed" />
+    <EmbeddedResource Include="..\resources\Embedded\costura.libusbdotnet.libusbdotnet.dll.compressed" LogicalName="costura.libusbdotnet.libusbdotnet.dll.compressed" />
+    <EmbeddedResource Include="..\resources\Embedded\costura.libusbdotnet.libusbdotnet.pdb.compressed" LogicalName="costura.libusbdotnet.libusbdotnet.pdb.compressed" />
+    <EmbeddedResource Include="..\resources\Embedded\costura.managedxz.dll.compressed" LogicalName="costura.managedxz.dll.compressed" />
+    <EmbeddedResource Include="..\resources\Embedded\costura.microsoft.bcl.asyncinterfaces.dll.compressed" LogicalName="costura.microsoft.bcl.asyncinterfaces.dll.compressed" />
+    <EmbeddedResource Include="..\resources\Embedded\costura.microsoft.extensions.logging.abstractions.dll.compressed" LogicalName="costura.microsoft.extensions.logging.abstractions.dll.compressed" />
+    <EmbeddedResource Include="..\resources\Embedded\costura.newtonsoft.json.dll.compressed" LogicalName="costura.newtonsoft.json.dll.compressed" />
+    <EmbeddedResource Include="..\resources\Embedded\costura.ookii.dialogs.winforms.dll.compressed" LogicalName="costura.ookii.dialogs.winforms.dll.compressed" />
+    <EmbeddedResource Include="..\resources\Embedded\costura.ookii.dialogs.winforms.pdb.compressed" LogicalName="costura.ookii.dialogs.winforms.pdb.compressed" />
+    <EmbeddedResource Include="..\resources\Embedded\costura.quartz.dll.compressed" LogicalName="costura.quartz.dll.compressed" />
+    <EmbeddedResource Include="..\resources\Embedded\costura.restsharp.dll.compressed" LogicalName="costura.restsharp.dll.compressed" />
+    <EmbeddedResource Include="..\resources\Embedded\costura.sunnyui.common.dll.compressed" LogicalName="costura.sunnyui.common.dll.compressed" />
+    <EmbeddedResource Include="..\resources\Embedded\costura.sunnyui.dll.compressed" LogicalName="costura.sunnyui.dll.compressed" />
+    <EmbeddedResource Include="..\resources\Embedded\costura.system.buffers.dll.compressed" LogicalName="costura.system.buffers.dll.compressed" />
+    <EmbeddedResource Include="..\resources\Embedded\costura.system.diagnostics.diagnosticsource.dll.compressed" LogicalName="costura.system.diagnostics.diagnosticsource.dll.compressed" />
+    <EmbeddedResource Include="..\resources\Embedded\costura.system.memory.dll.compressed" LogicalName="costura.system.memory.dll.compressed" />
+    <EmbeddedResource Include="..\resources\Embedded\costura.system.numerics.vectors.dll.compressed" LogicalName="costura.system.numerics.vectors.dll.compressed" />
+    <EmbeddedResource Include="..\resources\Embedded\costura.system.resources.extensions.dll.compressed" LogicalName="costura.system.resources.extensions.dll.compressed" />
+    <EmbeddedResource Include="..\resources\Embedded\costura.system.runtime.compilerservices.unsafe.dll.compressed" LogicalName="costura.system.runtime.compilerservices.unsafe.dll.compressed" />
+    <EmbeddedResource Include="..\resources\Embedded\costura.system.text.encoding.codepages.dll.compressed" LogicalName="costura.system.text.encoding.codepages.dll.compressed" />
+    <EmbeddedResource Include="..\resources\Embedded\costura.system.text.encodings.web.dll.compressed" LogicalName="costura.system.text.encodings.web.dll.compressed" />
+    <EmbeddedResource Include="..\resources\Embedded\costura.system.text.json.dll.compressed" LogicalName="costura.system.text.json.dll.compressed" />
+    <EmbeddedResource Include="..\resources\Embedded\costura.system.threading.tasks.extensions.dll.compressed" LogicalName="costura.system.threading.tasks.extensions.dll.compressed" />
+    <EmbeddedResource Include="..\resources\Embedded\costura.system.valuetuple.dll.compressed" LogicalName="costura.system.valuetuple.dll.compressed" />
+    <EmbeddedResource Include="..\resources\Embedded\costura.zstdsharp.dll.compressed" LogicalName="costura.zstdsharp.dll.compressed" />
+    <EmbeddedResource Include="..\resources\Embedded\costura.metadata" LogicalName="costura.metadata" />
+    <EmbeddedResource Include="..\resources\Embedded\---" LogicalName="&#xD;&#xA;&#x6;&#x4;&#x3;" />
+  </ItemGroup>
+  <ItemGroup>
+    <Reference Include="System.Memory">
+      <HintPath>..\lib\system.memory.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Xml" />
+    <Reference Include="SunnyUI">
+      <HintPath>..\lib\sunnyui.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Net.Http" />
+    <Reference Include="Google.Protobuf">
+      <HintPath>..\lib\google.protobuf.dll</HintPath>
+    </Reference>
+    <Reference Include="RestSharp">
+      <HintPath>..\lib\restsharp.dll</HintPath>
+    </Reference>
+    <Reference Include="AntdUI">
+      <HintPath>..\lib\antdui.dll</HintPath>
+    </Reference>
+    <Reference Include="Newtonsoft.Json">
+      <HintPath>..\lib\newtonsoft.json.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Text.Json">
+      <HintPath>..\lib\system.text.json.dll</HintPath>
+    </Reference>
+    <Reference Include="DotNetZip">
+      <HintPath>..\lib\dotnetzip.dll</HintPath>
+    </Reference>
+    <Reference Include="ManagedXZ">
+      <HintPath>..\lib\managedxz.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.VisualBasic" />
+    <Reference Include="System.Management" />
+    <Reference Include="System.IO.Compression.FileSystem" />
+    <Reference Include="LibUsbDotNet.LibUsbDotNet">
+      <HintPath>..\lib\libusbdotnet.libusbdotnet.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="Ookii.Dialogs.WinForms">
+      <HintPath>..\lib\ookii.dialogs.winforms.dll</HintPath>
+    </Reference>
+    <Reference Include="System.IO.Compression" />
+  </ItemGroup>
+  <ItemGroup>
+    <Reference Include="Costura">
+      <HintPath>..\lib\costura.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.Bcl.AsyncInterfaces">
+      <HintPath>..\lib\microsoft.bcl.asyncinterfaces.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.Extensions.Logging.Abstractions">
+      <HintPath>..\lib\microsoft.extensions.logging.abstractions.dll</HintPath>
+    </Reference>
+    <Reference Include="Quartz">
+      <HintPath>..\lib\quartz.dll</HintPath>
+    </Reference>
+    <Reference Include="SunnyUI.Common">
+      <HintPath>..\lib\sunnyui.common.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Buffers">
+      <HintPath>..\lib\system.buffers.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Diagnostics.DiagnosticSource">
+      <HintPath>..\lib\system.diagnostics.diagnosticsource.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Numerics.Vectors">
+      <HintPath>..\lib\system.numerics.vectors.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Resources.Extensions">
+      <HintPath>..\lib\system.resources.extensions.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Runtime.CompilerServices.Unsafe">
+      <HintPath>..\lib\system.runtime.compilerservices.unsafe.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Text.Encoding.CodePages">
+      <HintPath>..\lib\system.text.encoding.codepages.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Text.Encodings.Web">
+      <HintPath>..\lib\system.text.encodings.web.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Threading.Tasks.Extensions">
+      <HintPath>..\lib\system.threading.tasks.extensions.dll</HintPath>
+    </Reference>
+    <Reference Include="System.ValueTuple">
+      <HintPath>..\lib\system.valuetuple.dll</HintPath>
+    </Reference>
+    <Reference Include="ZstdSharp">
+      <HintPath>..\lib\zstdsharp.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="..\resources\UI\qc.andform.resx" LogicalName="qc.andform.resources" />
+    <EmbeddedResource Include="..\resources\UI\qc.Authe.resx" LogicalName="qc.Authe.resources" />
+    <EmbeddedResource Include="..\resources\UI\qc.AuthFrp.resx" LogicalName="qc.AuthFrp.resources" />
+    <EmbeddedResource Include="..\resources\UI\qc.Form1.resx" LogicalName="qc.Form1.resources" />
+    <EmbeddedResource Include="..\resources\UI\qc.Form3.resx" LogicalName="qc.Form3.resources" />
+    <EmbeddedResource Include="..\resources\UI\qc.Form4.resx" LogicalName="qc.Form4.resources" />
+    <EmbeddedResource Include="..\resources\UI\qc.LoginFrom.resx" LogicalName="qc.LoginFrom.resources" />
+    <EmbeddedResource Include="..\resources\UI\qc.Properties.Resources.resx" LogicalName="qc.Properties.Resources.resources" />
+  </ItemGroup>
+</Project>

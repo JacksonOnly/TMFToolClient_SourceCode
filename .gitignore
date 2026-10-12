@@ -1,0 +1,23 @@
+# Generated build outputs, packages, diagnostic probes and local logs.
+/artifacts/
+/logs/
+**/bin/
+**/obj/
+
+# Visual Studio / Rider / VS Code local state.
+.vs/
+.idea/
+.vscode/
+*.user
+*.suo
+*.userosscache
+*.sln.docstates
+
+# Temporary / machine-local files (not embedded application resources).
+*.tmp
+*.bak
+Thumbs.db
+Desktop.ini
+
+# Do not ignore *.dll / *.exe / *.compressed globally:
+# lib/ and resources/Embedded/ are required reproducible-build inputs.
